@@ -40,7 +40,7 @@ export default {
 	methods: {
 		login() {
 			// 跳转到首页
-			this.$router.push('/controlP+anel')
+			this.$router.push('/controlPanel')
 		}
 	}
 }
