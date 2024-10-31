@@ -1,7 +1,7 @@
 <template>
 	<div class="pages-news flex flex-col items-center justify-center">
-		<FeaturesWaitlistBoxContainer class="w-1/3 mt-6">
-			<div class="bg-white shadow-md rounded-lg overflow-hidden w-full sm:max-w-[33.33vw] mx-auto my-12" v-if="randomArticle">
+		<FeaturesWaitlistBoxContainer class="w-full md:w-1/3 mt-6">
+			<div class="bg-white shadow-md rounded-lg overflow-hidden w-full mx-auto my-12 sm:max-w-full" v-if="randomArticle">
 				<img :src="randomArticle.image" class="w-full h-60 object-cover mb-6" />
 				<div class="p-6">
 					<h1 class="text-xl font-semibold text-center text-gray-800 mb-6">{{ randomArticle.title }}</h1>
