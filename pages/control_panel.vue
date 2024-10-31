@@ -1,9 +1,9 @@
 <template>
 	<NuxtLayout>
 		<template v-slot:content>
-			aaabbccc
+			<ContentDoc />
 		</template>
-
+		
 		<template v-slot:footer>
 			112233
 		</template>
